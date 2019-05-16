@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.red {
+    background-color: #1B768B;
+    
+}
+
+.carpet-left {
+    position: absolute;
+    height: 608px;
+    opacity: 0.5;
+}
+
+.carpet-middle {
+    position: absolute;
+    height: 100px;
+    margin-top: 510px;
+    margin-left: 114px;
+    opacity: 0.5;
+    
+}
