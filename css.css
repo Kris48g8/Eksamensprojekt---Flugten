@@ -25,10 +25,19 @@ h1 {
     font-family: "alfa slab one", sans-serif;
     color: white;
     letter-spacing: 0.08em;
+    font-weight: 500;
 }
 
+h2 {
+    font-family: "alfa slab one", sans-serif;
+    color: white;
+    font-weight: 500;
+}
+
+
 p {
-    font-family: "Lato", sans-serif
+    font-family: "Lato", sans-serif;
+    color: white;
 }
 
 
@@ -171,4 +180,64 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
     border: none;
+}
+
+/* Koncept */
+
+.tekst-container {
+    
+    padding-top: 8em;
+    margin-left: 50px;;
+    width: 25%;
+    float: left;
+    
+}
+
+.udstilling {
+    width: 25%;
+    float: left;
+    padding-top: 8em;
+    margin-left: 10em;
+    border-radius: 5px;
+}
+
+.previous {
+    color: white;
+    float: left;
+    margin-top: 40vh;
+    margin-left: 80px;
+    transform: scale(3);
+    cursor:pointer;
+}
+
+.next {
+    color: white;
+    float: left;
+    margin-top: 40vh;
+    margin-left: 50px;
+    transform: scale(3);
+    cursor:pointer;
+}
+
+.slideJs {
+    width: 100%;
+}
+
+
+.slideJs {
+    display: none;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.slideshow-container {
+    
 }
