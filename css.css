@@ -4,18 +4,32 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth
+}
 
 .blue {
     background-color: #1B768B;
-    
 }
+
+.green {
+    background-color: #3C9073
+}
+
+.red {
+    background-color: #D1404B
+}
+
 
 h1 {
     font-family: "alfa slab one", sans-serif;
     color: white;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.08em;
 }
 
+p {
+    font-family: "Lato", sans-serif
+}
 
 
 #section1 {
@@ -44,7 +58,7 @@ h1 {
 
 
 .left {
-    height: 89vh;
+    height: 85vh;
     width: 7em;
     background-image: url(img/side.png);
     background-repeat: repeat;
@@ -54,8 +68,8 @@ h1 {
 
 .bottom {
     width: 100%;
-    height: 4em;
-    background-image: url(img/bund2.png);
+    height: 15vh;
+    background-image: url(img/bund3.png);
     background-repeat: repeat;
     float: left;
     opacity: 0.4;
@@ -134,7 +148,7 @@ a:link {
 
 
 .navi-tekst:hover{
-    transform: translateX(-60px);
+    transform: translateX(-65px);
     transition: 1s;
     transition-timing-function: ease-in-out;
     animation-name: flow-out;
@@ -144,7 +158,8 @@ a:link {
 nav {
     position: fixed;
     left: 95%;
-    top: 40%
+    top: 40%;
+    z-index: 10;
 }
 
 .video {
