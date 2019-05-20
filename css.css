@@ -5,22 +5,161 @@
 }
 
 
-.red {
+.blue {
     background-color: #1B768B;
     
 }
 
-.carpet-left {
-    position: absolute;
-    height: 608px;
-    opacity: 0.5;
+h1 {
+    font-family: "alfa slab one", sans-serif;
+    color: white;
+    letter-spacing: 0.05em;
 }
 
-.carpet-middle {
-    position: absolute;
-    height: 100px;
-    margin-top: 510px;
-    margin-left: 114px;
-    opacity: 0.5;
+
+
+#section1 {
+    height: 100vh;
+}
+
+#section2 {
+    height: 100vh;
+}
+
+#section3 {
+    height: 100vh;
+}
+
+#section4 {
+    height: 100vh;
+}
+
+.overskrift {
+    text-align: center;
+    font-size: 2.8em;
+    padding-top: 0.5em;
     
+}
+
+
+
+.left {
+    height: 89vh;
+    width: 7em;
+    background-image: url(img/side.png);
+    background-repeat: repeat;
+    float: left;
+    opacity: 0.4;
+}
+
+.bottom {
+    width: 100%;
+    height: 4em;
+    background-image: url(img/bund2.png);
+    background-repeat: repeat;
+    float: left;
+    opacity: 0.4;
+}
+
+.logo {
+    width: 5%;
+    float: right;
+    padding-top: 1em;
+    padding-right: 1em;
+    transform:scale(1.5)
+}
+
+
+
+.navlink{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "lato", sans-serif;
+}
+
+.navdot {
+    height: 20px;
+    width: 20px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-top: 0.5em;
+}
+
+.navdot:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+    display: block;
+}
+
+
+
+.nav-tekst:hover {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+
+
+
+
+/* Ny css */
+
+
+.dot {
+   height: 20px;
+    width: 20px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-top: 0.5em;
+}
+
+.dot:hover{
+    transform: scale(1.2);
+    transition: .5s;
+}
+
+.navi-tekst {
+    color: white;
+    opacity: 0;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+.navi-tekst:active {
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+
+@keyframes flow-out {
+    0% {opacity: 0;}
+    50% {opacity: 0}
+    100% {opacity: 1}
+    
+}
+
+
+.navi-tekst:hover{
+    transform: translateX(-60px);
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+    animation-name: flow-out;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+nav {
+    position: fixed;
+    left: 95%;
+    top: 40%
+}
+
+.video {
+    width: 50%;
+    height: 25em;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
 }
