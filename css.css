@@ -264,6 +264,18 @@ nav {
     opacity: 0;
 }
 
+
+/* Extra Media Qurrie Css - Knapper der aktiveres ved Media Quirres */
+
+
+.ekstra-knap {
+    display: none;
+}
+
+
+
+
+
 /* Media Qurries /*
 
 
@@ -275,6 +287,12 @@ nav {
     .overskrift {font-size: 1em;}
     .video {width: 60%; height: 30vh;}
     .logo {width: 15%;}
+    nav {left: 85%;}
+    .tekst-container {width: 50%; margin-left: 10px;; margin-right: auto; padding-top: 1em; display: block; float: left;}
+    .udstilling {width: 70%; padding: 0; margin-top: 20px;}
+    .next {display: none;}
+    .previous {display: none;}
+    .ekstra-knap {display: block; margin: 0; padding: 0;}
 }
 
 
