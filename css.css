@@ -103,7 +103,7 @@ p {
     float: right;
     padding-top: 1em;
     padding-right: 1em;
-    transform:scale(1.5)
+    transform:scale(1.5);
 }
 
 /* Navigation */
@@ -206,6 +206,7 @@ nav {
     border-radius: 5px;
     padding-top: 5em;
     padding-left: 5vh;
+    
 }
 
 .udstilling-2 {
@@ -225,6 +226,7 @@ nav {
     margin-left: 80px;
     transform: scale(3);
     cursor:pointer;
+    
 }
 
 .next {
@@ -234,6 +236,7 @@ nav {
     margin-left: 50px;
     transform: scale(3);
     cursor:pointer;
+    
 }
 
 /* JavaScript støtte CSS og animation */
@@ -268,11 +271,6 @@ nav {
 /* Extra Media Qurrie Css - Knapper der aktiveres ved Media Quirres */
 
 
-.ekstra-knap {
-    display: none;
-}
-
-
 
 
 
@@ -288,30 +286,46 @@ nav {
     .video {width: 60%; height: 30vh;}
     .logo {width: 15%;}
     nav {left: 85%;}
-    .tekst-container {width: 50%; margin-left: 10px;; margin-right: auto; padding-top: 1em; display: block; float: left;}
-    .udstilling {width: 70%; padding: 0; margin-top: 20px;}
+    .tekst-container {width: 50%; margin-left: 20px; margin-right: auto; padding-top: 20px;; display: block; float: left; text-align: }
+    .udstilling {width: 70%; padding: 0; margin-top: 20px; margin-left: 20px;}
     .next {display: none;}
     .previous {display: none;}
-    .ekstra-knap {display: block; margin: 0; padding: 0;}
+    .udstilling-2 {margin-left: 20px; margin-right: auto;  width: 33%; padding: 0;}
 }
 
 
 
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width : 321px) {
-/* Styles */
+    .video {height: 10em; left: 52% }
+    .overskrift {font-size: 2em;}
+    .next {display: none;}
+    .previous {display: none;}
+    .tekst-container {padding-top: 30px; font-size: 12px; width: 30%}
+    nav {left: 90%;}
+    .udstilling-2 {padding: 0; margin-left: 50px; margin-top: 50px;}
+    .left {width: 10%}
 }
 
 
 /* iPads (portrait) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-/* Styles */
+    .logo {width: 12%}
+    nav {left: 90%; padding-top: 1.5em; padding-left: 1.5em;}
+    .next {display: none;}
+    .previous {display: none;}
+    .udstilling {width: 75%}
+    .udstilling-2 {width: 35%; margin-left: 150px; padding-top: 25px;}
+    .video {width: 60%}
+    
 }
 
 
 /* iPads (landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-/* Styles */
+    .tekst-container {padding-top: 30vh}
+    .udstilling {padding-top: 30vh;}
+    .udstilling-2 {padding-top: 30vh;}
 }
 
 
