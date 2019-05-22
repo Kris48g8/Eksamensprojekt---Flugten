@@ -23,20 +23,12 @@ function showSlides(n) {
     
 }
 
-
-
 let s1 = document.getElementById('slide1');
 let s2 = document.getElementById('slide2');
 
-window.addEventListener("scroll", function(){
-    if(window.scrollY > 500) {
-        console.log("scroll");
-        setInterval(function() {
+setInterval(setTimeout, function() {
     
-        console.log("scroll");
     var showSlide1 = s1.style.display === 'none';
     s1.style.display = showSlide1 ? 'block' : 'none';
     s2.style.display = showSlide1 ? 'none' : 'block';
-}, 5000)
-    }
-})
+}, 15000)
