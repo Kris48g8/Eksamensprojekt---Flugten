@@ -268,25 +268,19 @@ nav {
 }
 
 
-/* Extra Media Qurrie Css - Knapper der aktiveres ved Media Quirres */
-
-
-
-
-
 /* Media Qurries /*
 
 
 
 
-/* Smartphones (portrait) ----------- */
+/* Smartphones (portrait)  */
 @media only screen and (max-width : 414px) {
     .left {width: 2em}
     .overskrift {font-size: 1em;}
     .video {width: 60%; height: 30vh;}
     .logo {width: 15%;}
     nav {left: 85%;}
-    .tekst-container {width: 50%; margin-left: 20px; margin-right: auto; padding-top: 20px;; display: block; float: left; text-align: }
+    .tekst-container {width: 50%; margin-left: 20px; margin-right: auto; padding-top: 20px;; display: block; float: left; }
     .udstilling {width: 70%; padding: 0; margin-top: 20px; margin-left: 20px;}
     .next {display: none;}
     .previous {display: none;}
@@ -295,7 +289,7 @@ nav {
 
 
 
-/* Smartphones (landscape) ----------- */
+/* Smartphones (landscape)  */
 @media screen and (min-width : 321px) and (max-width : 640px) {
     .video {height: 10em; left: 52% }
     .overskrift {font-size: 2em;}
@@ -309,7 +303,7 @@ nav {
 
 
 
-/* iPads (portrait) ----------- */
+/* iPads (portrait)  */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
     .logo {width: 12%}
     nav {left: 90%; padding-top: 1.5em; padding-left: 1.5em;}
@@ -322,7 +316,7 @@ nav {
 }
 
 
-/* iPads (landscape) ----------- */
+/* iPads (landscape)  */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
     .tekst-container {padding-top: 30vh}
     .udstilling {padding-top: 30vh;}
@@ -331,7 +325,7 @@ nav {
 
 
 
-/* 640 fix */
+/* 640px fix */
 
 @media only screen and (min-width : 635px) and (max-width : 924px)
 {
@@ -339,10 +333,4 @@ nav {
     .next {display: none;}
     .previous {display: none;}
     
-}
-
-
-/* Large screens ----------- */
-@media only screen  and (min-width : 1824px) {
-/* Styles */
 }

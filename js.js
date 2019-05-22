@@ -31,4 +31,4 @@ setInterval(function() {
     var showSlide1 = s1.style.display === 'none';
     s1.style.display = showSlide1 ? 'block' : 'none';
     s2.style.display = showSlide1 ? 'none' : 'block';
-}, 10000)
+}, 15000)
