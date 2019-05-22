@@ -296,7 +296,7 @@ nav {
 
 
 /* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) {
+@media screen and (min-width : 321px) and (max-width : 640px) {
     .video {height: 10em; left: 52% }
     .overskrift {font-size: 2em;}
     .next {display: none;}
@@ -306,6 +306,7 @@ nav {
     .udstilling-2 {padding: 0; margin-left: 50px; margin-top: 50px;}
     .left {width: 10%}
 }
+
 
 
 /* iPads (portrait) ----------- */
