@@ -332,5 +332,6 @@ nav {
     .video {height: 50vh;}
     .next {display: none;}
     .previous {display: none;}
+    p { font-size: 12px;}
     
 }
