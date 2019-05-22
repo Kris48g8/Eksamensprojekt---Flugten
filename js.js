@@ -22,3 +22,13 @@ function showSlides(n) {
     
     
 }
+
+let s1 = document.getElementById('slide1');
+let s2 = document.getElementById('slide2');
+
+setInterval(function() {
+    
+    var showSlide1 = s1.style.display === 'none';
+    s1.style.display = showSlide1 ? 'block' : 'none';
+    s2.style.display = showSlide1 ? 'none' : 'block';
+}, 10000)
