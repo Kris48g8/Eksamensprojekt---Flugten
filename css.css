@@ -33,12 +33,18 @@ h1 {
     color: white;
     letter-spacing: 0.08em;
     font-weight: 500;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
 }
 
 h2 {
     font-family: "alfa slab one", sans-serif;
     color: white;
     font-weight: 300;
+    letter-spacing: 0.05em;
 }
 
 
@@ -49,6 +55,11 @@ p {
 
 
 /* HTML "undersider" - sektioner */
+
+
+#forside {
+    height: 100vh;
+}
 
 #section1 {
     height: 100vh;
@@ -99,11 +110,24 @@ p {
 }
 
 .logo {
-    width: 3.5em;
-    float: right;
-    padding-top: 1em;
-    padding-right: 1em;
-    transform:scale(1.5);
+    width: 15%;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+
+.center {
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top {
+    margin-top: 40px;
+    margin-left: 30px;
+    display: inline-block;
 }
 
 /* Navigation */
@@ -216,11 +240,11 @@ nav {
 /* Forside */
 
 .video {
-    width: 50%;
-    height: 25em;
+    width: 40%;
+    height: 50vh;
     display: block;
     position: absolute;
-    top: 50%;
+    top: 150%;
     left: 50%;
     transform: translate(-50%, -50%);
     border: none;
@@ -240,7 +264,6 @@ nav {
 .udstilling {
     width: 35%;
     float: left;
-    border-radius: 5px;
     padding-top: 5em;
     padding-left: 5vh;
     
@@ -348,7 +371,7 @@ nav {
     .previous {display: none;}
     .udstilling {width: 75%}
     .udstilling-2 {width: 35%; margin-left: 150px; padding-top: 25px;}
-    .video {width: 60%}
+    .video {width: etTimeout, 0%}
     
 }
 
