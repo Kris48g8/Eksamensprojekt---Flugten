@@ -26,7 +26,7 @@ function showSlides(n) {
 let s1 = document.getElementById('slide1');
 let s2 = document.getElementById('slide2');
 
-setInterval(setTimeout, function() {
+setInterval(function() {
     
     var showSlide1 = s1.style.display === 'none';
     s1.style.display = showSlide1 ? 'block' : 'none';
