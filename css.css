@@ -45,12 +45,19 @@ h2 {
     color: white;
     font-weight: 300;
     letter-spacing: 0.05em;
+    font-size: 1.2em;
 }
 
 
 p {
     font-family: "Lato", sans-serif;
     color: white;
+}
+
+.italic {
+    font-style: italic;
+    margin-bottom: 5px;
+    font-size: .6em;
 }
 
 
@@ -74,7 +81,7 @@ p {
 }
 
 #section4 {
-    height: 80vh;
+    height: 100vh;
     overflow: hidden;
 }
 
@@ -107,6 +114,7 @@ p {
     float: left;
     opacity: 0.4;
     object-fit: cover;
+    background-repeat:repeat-x;
 }
 
 .logo {
@@ -125,9 +133,10 @@ p {
 }
 
 .top {
-    margin-top: 40px;
-    margin-left: 30px;
-    display: inline-block;
+   padding-top: 2em;
+    margin-left: 7em;
+    font-size: 1.5em;
+    
 }
 
 /* Navigation */
@@ -254,8 +263,8 @@ nav {
 
 .tekst-container {
     
-    padding-top: 8em;
-    margin-left: 50px;;
+    padding-top: 5em;
+    margin-left: 50px;
     width: 25%;
     float: left;
     
@@ -300,8 +309,24 @@ nav {
 }
 
 
-.
+.portrait {
+    width: 80%
+}
 
+
+.tekst-container2 {
+    padding-top: 5em;
+    margin-left: 50px;
+    width: 13%;
+    float: left;
+}
+
+.tekst-container3 {
+    padding-top: 5em;
+    width: 13%;
+    margin-left: 3em;
+    float: left;
+}
 
 
 /* JavaScript støtte CSS og animation */
@@ -345,11 +370,12 @@ nav {
     .video {width: 60%; height: 30vh;}
     .logo {width: 15%;}
     nav {left: 85%;}
-    .tekst-container {width: 50%; margin-left: 20px; margin-right: auto; padding-top: 20px;; display: block; float: left; }
+    .tekst-container {width:80%; margin-left: 20px; margin-right: auto; padding-top: 20px;; display: block; float: left; }
     .udstilling {width: 70%; padding: 0; margin-top: 20px; margin-left: 20px;}
     .next {display: none;}
     .previous {display: none;}
     .udstilling-2 {margin-left: 20px; margin-right: auto;  width: 33%; padding: 0;}
+    .portrait {display: none}
 }
 
 
@@ -360,10 +386,13 @@ nav {
     .overskrift {font-size: 2em;}
     .next {display: none;}
     .previous {display: none;}
-    .tekst-container {padding-top: 30px; font-size: 12px; width: 30%}
+    .tekst-container {padding-top: 30px; font-size: 12px; width: 70%}
     nav {left: 90%;}
     .udstilling-2 {padding: 0; margin-left: 50px; margin-top: 50px;}
     .left {width: 10%}
+    .top {margin-left: 2.5em; font-size: 1.3em;}
+    .tekst-container2 {margin-right: 3em;}
+    .margin {margin-right: 3em;}
 }
 
 
@@ -374,9 +403,15 @@ nav {
     nav {left: 90%; padding-top: 1.5em; padding-left: 1.5em;}
     .next {display: none;}
     .previous {display: none;}
-    .udstilling {width: 75%}
+    .udstilling {width: 70%}
     .udstilling-2 {width: 35%; margin-left: 150px; padding-top: 25px;}
-    .video {width: etTimeout, 0%}
+    .video {width: setTimeout, 0%}
+    .portrait {display: none;}
+    .video {width: 65%}
+    .portrait {display: block}
+    
+    
+    
     
 }
 
@@ -398,5 +433,13 @@ nav {
     .next {display: none;}
     .previous {display: none;}
     p { font-size: 12px;}
+    
+}
+
+/* fix */
+
+@media only screen and (min-width : 0px) and (max-width : 518px) {
+    .tekst-container {width: 50%;}
+    
     
 }
