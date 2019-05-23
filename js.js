@@ -89,3 +89,18 @@ function kontakt() {
     } else { document.getElementById("dot5").className = "dot";
     }
 }
+
+
+let i=0, text;
+text = "Projekt for Vardemuseerne"
+
+setInterval(function typing() {
+    if(i<text.length){
+        document.getElementById("javatext2").innerHTML += text.charAt(i);
+        i++;
+        setTimeout(typing,200);
+        
+    }
+},2000);
+typing(); 
+
