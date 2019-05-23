@@ -96,7 +96,7 @@ text = "Projekt for Vardemuseerne"
 
 setInterval(function typing() {
     if(i<text.length){
-        document.getElementById("javatext2").innerHTML += text.charAt(i);
+        document.getElementById("javatext").innerHTML += text.charAt(i);
         i++;
         setTimeout(typing,200);
         
