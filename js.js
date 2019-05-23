@@ -53,7 +53,7 @@ setTimeout(function() {
 }, 30000)
 /* Process knapper */
 
-window.onscroll = function() {forside(), koncept(), appen(), kontakt()};
+window.onscroll = function() {forside(), video(), koncept(), appen(), kontakt()};
 
 function forside() {
     if (document.body.scrollTop > -1 || document.documentElement.scrollTop > -1) {
@@ -62,23 +62,30 @@ function forside() {
     }
 }
 
-function koncept() {
+function video() {
     if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
         document.getElementById("dot2").className = "dotfarve2";
     } else { document.getElementById("dot2").className = "dot";
     }
 }
 
-function appen() {
-    if (document.body.scrollTop > 1050 || document.documentElement.scrollTop > 1050) {
+function koncept() {
+    if (document.body.scrollTop > 1100 || document.documentElement.scrollTop > 1100) {
         document.getElementById("dot3").className = "dotfarve3";
     } else { document.getElementById("dot3").className = "dot";
     }
 }
 
-function kontakt() {
-    if (document.body.scrollTop > 1300 || document.documentElement.scrollTop > 1300) {
+function appen() {
+    if (document.body.scrollTop > 1500 || document.documentElement.scrollTop > 1500) {
         document.getElementById("dot4").className = "dotfarve4";
     } else { document.getElementById("dot4").className = "dot";
+    }
+}
+
+function kontakt() {
+    if (document.body.scrollTop > 2200 || document.documentElement.scrollTop > 2200) {
+        document.getElementById("dot5").className = "dotfarve5";
+    } else { document.getElementById("dot5").className = "dot";
     }
 }
