@@ -27,7 +27,7 @@ let s1 = document.getElementById('slide1');
 let s2 = document.getElementById('slide2');
 let s3 = document.getElementById('slide3');
 
-setInterval(function conslide() {
+setInterval(function() {
         s1.style.display = "block";
         s2.style.display = "none";
         s3.style.display = "none";
