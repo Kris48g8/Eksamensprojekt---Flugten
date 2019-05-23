@@ -25,15 +25,32 @@ function showSlides(n) {
 
 let s1 = document.getElementById('slide1');
 let s2 = document.getElementById('slide2');
+let s3 = document.getElementById('slide3');
 
-setInterval(function() {
-    
-    var showSlide1 = s1.style.display === 'none';
-    s1.style.display = showSlide1 ? 'block' : 'none';
-    s2.style.display = showSlide1 ? 'none' : 'block';
+setInterval(function conslide() {
+        s1.style.display = "block";
+        s2.style.display = "none";
+        s3.style.display = "none";
+    setTimeout(function() {
+        s1.style.display = "none";
+        s2.style.display = "block";
+        s3.style.display = "none";
+    }, 15000)
+    setTimeout(function() {
+        s1.style.display = "none";
+        s2.style.display = "none";
+        s3.style.display = "block";
+    }, 30000)
+}, 45000)
+setTimeout(function() {
+    s2.style.display = "block";
+    s1.style.display = "none";
 }, 15000)
-
-
+setTimeout(function() {
+        s1.style.display = "none";
+        s2.style.display = "none";
+        s3.style.display = "block";
+}, 30000)
 /* Process knapper */
 
 window.onscroll = function() {forside(), koncept(), appen(), kontakt()};
