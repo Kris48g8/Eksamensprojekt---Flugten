@@ -86,7 +86,14 @@ p {
 
 #section5 {
     height: 100vh;
-    overflow: hidden;
+}
+
+#section6 {
+    height: 100vh;
+}
+
+#section7 {
+    height: 100vh;
 }
 
 
@@ -218,7 +225,29 @@ p {
     margin-top: 0.5em;
 }
 
+.dotfarve6{
+    background-color: #ffffff;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-top: 0.5em;
+}
 
+.dotfarve7{
+    background-color: #ffffff;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-top: 0.5em;
+}
+
+.dotfarve8{
+    background-color: #ffffff;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-top: 0.5em;
+}
 
 
 .navi-tekst {
@@ -242,7 +271,7 @@ a:link {
 
 
 .navi-tekst:hover{
-    transform: translateX(-65px);
+    transform: translateX(-85px);
     transition: 1s;
     transition-timing-function: ease-in-out;
     animation-name: flow-out;
@@ -368,9 +397,62 @@ nav {
 }
 
 
+
+/* Styleguide */
+
+.farve {
+    border: solid 3px white;
+    width: 50%;
+    height: 70px;
+}
+
+.logosg {
+    width: 50%;
+    height: 80px;;
+    
+    
+}
+
+
+.typografi-alpha {
+    font-family: "alpha slab one"
+}
+
+
+.white {
+    background-color: white;
+}
+
+.orange {
+    background-color: #b86427
+}
+
+.grey {
+    background-color: #f4f3f4;
+}
+
+.previoussg {
+    color: white;
+    float: left;
+    margin-top: 20px;
+    transform: scale(3);
+    cursor:pointer;
+    
+}
+
+.nextsg {
+    color: white;
+    float: left;
+    margin-top: 20px;
+    transform: scale(3);
+    cursor:pointer;
+    
+}
+
+
+
+
 /* Media Qurries /*
-
-
 
 
 /* Smartphones (portrait)  */
